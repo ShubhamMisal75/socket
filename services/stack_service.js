@@ -2,7 +2,7 @@ const validateBody = require("../validations");
 const StockModel = require("../model/stock_model");
 const ObjectId = require("mongoose").Types.ObjectId;
 
-//----insert stock
+//----insert stock------------------------
 const insertStock = async (req, res) => {
   try {
     var StockDetails = req.body;
