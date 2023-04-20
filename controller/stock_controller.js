@@ -1,7 +1,7 @@
 const userModel = require("../model/user_model");
 const stockservices = require("../services/stack_service");
 
-//----insert Stock
+//----insert Stock---
 const insertStock = async (req, res) => {
   try {
     const result = await stockservices.insertStock(req, res);
